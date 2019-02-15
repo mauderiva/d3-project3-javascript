@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blueprint: Zoom Slider</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Blueprint <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>Zoom Slider</h1>
+
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img src="images/poisson1.jpg" alt="iPhone app preview" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Le classique</span>Querelleur</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img src="images/poisson2.jpg" alt="iPad Mini app preview" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Le Fantastique</span>Lutteur</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img src="images/poisson3.jpg" alt="MacBook app preview" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>l'incroyable</span>Bagarreur</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview">
+							<img src="images/poisson4.jpg" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Le Glorieux</span>Agressif</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<div class="preview rounded">
+							<img src="images/poisson5.jpg" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Le fabuleux</span>Concurrent</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/poisson1.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Querelleur</h2>
+					<h3>L'espèce</h3>
+					<p> Les poissons combattants désignent l'ensemble des 74 espèces du genre Betta, mais en aquarium, LE poisson combattant est le mâle Betta splendens, appelé aussi le combattant du Siam en raison de son origine géographique, l'ancien Siam devenu la Thaïlande. Correctement maintenus et nourris avec une alimentation correcte, les poissons combattants vivent entre 2 à 5 ans en captivité.</p>
+					<p><a href="https://www.aquaportail.com/definition-6883-poisson-combattant.html">En savoir plus &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/poisson2.jpg" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>Lutteur</h2>
+					<h3>Son Comportement</h3>
+					<p>C'est le caractère irascible et intolérant des mâles entre eux qui leur vaut le surnom de "combattant", rendant impossible la cohabitation de deux mâles B. splendens. En effet, deux poissons combattants mâles mis en présence se battront violemment en gonflant la gorge, faisant saillir les ouïes, et étalant le plus possible toutes les nageoires pour paraître le plus grand et le plus fort possible.</p>
+					<p><a href="https://www.aquaportail.com/definition-6883-poisson-combattant.html">En savoir plus  &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/poisson3.jpg" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>Bagarreur</h2>
+					<h3>Sur le podium</h3>
+					<p>Le Betta splendens est populaire à plusieurs titres, et son histoire mérite quelques détails, car elle est aussi à l'origine de son succès auprès des aquariophiles. Originaire de Thaïlande (appelé le Siam à l'époque), il y est élevé depuis plus de 600 ans ! Cela n'équivaut pas les 1000 ans du poisson rouge, mais cela en fait l'un des plus anciens poissons "domestiqués".</p>
+					<p><a href="https://www.aquaportail.com/definition-6883-poisson-combattant.html">En savoir plus &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/poisson4.jpg" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>Agressif</h2>
+					<h3>Une réelle popularité</h3>
+					<p>C'est initialement le caractère agressif du combattant qui faisait fureur: des combats entre deux mâles étaient organisés pour des paris... On notera que les combats n'allaient que très rarement jusqu'à la mort d'un des deux poissons, le simple abandon suffisait à déclarer l'autre victorieux.</p>
+					<p><a href="https://www.aquaportail.com/definition-6883-poisson-combattant.html">En savoir plus &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/poisson5.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Concurrent</h2>
+					<h3>Toujours sur le podium</h3>
+					<p>Les deux poissons-combattants, vus dans des jarres traditionnelles thaïlandaises datant de 1937, sont destinés à se combattre lors d'exhibitions-combats pour l'organisation paris. La pratique existe encore de nos jours. Voyant la popularité de ces combats, le roi de Siam a commencé la collecte des poissons de combat. En 1840, il a donné certains de ses poissons si prisés à un homme qui, à son tour, les donna au Dr. Theodor Cantor.</p>
+					<p><a href="https://www.aquaportail.com/definition-6883-poisson-combattant.html">Learn more about new ways to connect &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
